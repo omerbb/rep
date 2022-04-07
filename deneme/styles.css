@@ -1,0 +1,153 @@
+
+img {
+	vertical-align: middle;
+
+}
+.containercontainer{
+    margin-top: 3vh;
+    width: 62vw;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 8vh;
+}
+.galbck {
+    background: rgb(219,211,79);
+    background: linear-gradient(163deg, rgba(219,211,79,1) 22%, rgba(204,115,200,1) 85%);
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:auto 130%;
+}
+/* Slideshow container */
+.slideshow-container {
+    width: 50vw;
+    height: 50vh;
+	position: relative;
+	margin:0 auto 1vw;
+    display: inline-flex;
+    border-radius: 8px;
+
+}
+.image {
+	width: 50vw;
+    height: 50vh;
+	background:red;
+    border-radius: 8px;
+}
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+	background-color: #0053ee6c;
+	color: black;
+}
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+
+}
+
+.img1 {
+	background:red
+}
+.img2 {
+	background:yellow
+}
+.img3 {
+	background:green
+}
+
+ @-webkit-keyframes fade {
+ from {
+opacity: .4
+}
+to {
+	opacity: 1
+}
+}
+ @keyframes fade {
+ from {
+opacity: .4
+}
+to {
+	opacity: 1
+}
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px -10000px;
+  }
+}
+.ulleft{
+    margin-top: 10vh;
+    width: 20vw;
+    margin-left: 1vw;
+}
+.ulright{
+    margin-top: 10vh;
+    width: 20vw;
+    margin-left: 1vw;
+    
+}
+.listcontainer{
+    display: flex;
+    margin-top: 4vh;
+}
+.listelement{
+    margin-top: 2vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+@media (max-width: 800px) {
+    
+    .containercontainer {
+
+        width: 60.5vw;
+        text-align:center;
+        right:20vw;
+
+    }
+    .slideshow-container {
+        width: 60vw;
+        height: 60vw;
+
+    }
+    .image {
+        width: 60vw;
+        height: 60vw;
+
+    }
+
+
+
+}
